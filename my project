@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="bt1.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="fixed-top">...</div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">EduWeb</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="bg-light text-center text-dark p-5">
+    <div class="container">
+      <h1 class="fw-bold">Lean Anytime,anywhere</h1>
+      <p class="lead">Learn online with top instructors. Anytime, anywhere.</p>
+      <a href="#courses" class="btn btn-primary btn-lg">Get Startded</a>
+    </div>
+  </section>
+  </div>
+  <section id="courses" class="py-5">
+    <div class="container">
+      <h3 class="text-center mb-4">Popural Courses</h3>
+      <div class="row">
+       <!-- Course 1 -->
+         <div class="col-md-4 mb-4">
+          <div class="card shadow">
+            <img src="https://jessup.edu/wp-content/uploads/2024/01/Is-Web-Development-Oversaturated.jpg"
+              class="card-img-top Course-pic" alt="Course 1">
+            <div class="card-body">
+              <h5 class="card-title">Web Development</h5>
+              <p class="card-text">lightgray in HTML,CSS,</p>
+              <a href="#" class="btn btn-outline-primary">Enroll Now</a>
+            </div>
+          </div> 
+         </div>
+        <!-- Course 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card shadow">
+            <img src="https://flourisense.in/wp-content/uploads/2022/09/ds.jpg" class="card-img-top" alt="Course 2">
+            <div class="card-body">
+              <h5 class="card-title">Data Structures</h5>
+              <p class="card-text">Let our expert instructors guide you through the ins and outs of Machine Learning and
+                other useful Data Science tools to set your team up for success.</p>
+              <a href="#" class="btn btn-outline-primary">Enroll Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- Course 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="card shadow">
+            <img
+              src="https://webandcrafts.com/_next/image?url=https%3A%2F%2Fadmin.wac.co%2Fuploads%2FFeatures_Of_Python_1_f4ccd6d9f7.jpg&w=4500&q=90"
+              class="card-img-top Course-pic" alt="Course 3">
+            <div class="card-body"> 
+            <h5 class="card-title">Python Programming</h5>
+              <p class="card-text">"Python Learn" refers to the process of learning the Python programming language.
+              </p>
+              <a href="#" class="btn btn-outline-primary">Enroll Now</a>
+            </div>
+          </div>
+        </div> -
+        <!-- Course 4 -->
+        <div class="col-md-4 mb-4">
+          <div class="card shadow">
+            <img
+              src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Deep-Learning-vs-Machine-Learning.jpg"
+              class="card-img-top Course-pic" alt="Course 4">
+            <div class="card-body">
+              <h5 class="card-title">Machine Learning</h5>
+              <p class="card-text">teach computers to learn from data to perform tasks and make predictions without
+                being explicitly programmed for every single situation</p>
+              <a href="#" class="btn btn-outline-primary">Enroll Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- Course 5 -->
+        <div class="col-md-4 mb-4">
+          <div class="card shadow">
+            <img
+              src="https://cdn.mos.cms.futurecdn.net/v2/t:0,l:0,cw:6499,ch:3656,q:80,w:6499/pL5rBKGq88cnoqgdJgCXGS.jpg"
+              class="card-img-top Course-pic" alt="Course 5">
+            <div class="card-body">
+              <h5 class="card-title">Cloud Computing</h5>
+              <p class="card-text"> a model for delivering IT resources and services—like servers, storage, software,
+                and analytics—over the internet on an on-demand, pay-as-you-go basis.</p>
+              <a href="#" class="btn btn-outline-primary">Enroll Now</a>
+            </div>
+          </div>
+        </div> 
+        <!---- Trusted by Companies Section -->
+        <section class="bg-white py-5">
+          <div class="container text-center">
+            <h2 class="fw-bold mb-4">🌍 Trusted by Top Companies</h2>
+            <p class="text-muted mb-5">EduLearn partners with global leaders to help students grow their careers</p>
+
+            <div class="logo-slider">
+              <div class="logo-track"> 
+                <!-- Logos (repeat for smooth effect) -->
+         <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" height="50"
+                  alt="Microsoft">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" height="50"
+                  alt="Google">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" height="50"
+                  alt="Apple">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" height="50" alt="Amazon">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" height="50"
+                  alt="Netflix">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/IBM_logo.svg" height="50" alt="IBM"> 
+
+                <!-- repeat logos again for infinite effect -->
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" height="50"
+                  alt="Microsoft">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" height="50"
+                  alt="Google">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" height="50"
+                  alt="Apple">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" height="50" alt="Amazon">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" height="50"
+                  alt="Netflix">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/IBM_logo.svg" height="50" alt="IBM">
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CSS -->
+         <style>
+          .logo-slider {
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+          }
+
+          .logo-track {
+            display: flex;
+            gap: 50px;
+            animation: slideLeft 20s linear infinite;
+          }
+
+          .logo-track img {
+            max-height: 60px;
+            object-fit: contain;
+          }
+
+          @keyframes slideLeft {
+            0% {
+              transform: translateX(0);
+            }
+
+            100% {
+              transform: translateX(-50%);
+            }
+          }
+        </style>
+        <!-- Testimonials Section -->
+         <section class="container my-5">
+          <h2 class="text-center mb-4">💬 What Our Students Say</h2>
+          <div class="row g-4">
+            <!-- Testimonial 1 -->
+         <div class="col-md-4">
+              <div class="card shadow p-3 h-100 text-center">
+                <div class="mb-2 text-warning">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                </div>
+                <p class="lead">"EduLearn changed my career! I got placed as a Web Developer."</p>
+                <h6 class="fw-bold">- Rahul Sharma</h6>
+              </div>
+            </div> 
+            <!-- Testimonial 2 -->
+            <div class="col-md-4">
+              <div class="card shadow p-3 h-100 text-center">
+                <div class="mb-2 text-warning">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <p class="lead">"Best platform for Python and Data Science. Highly recommended!"</p>
+                <h6 class="fw-bold">- Priya Patel</h6>
+              </div>
+            </div> 
+
+            <!-- Testimonial 3 -->
+             <div class="col-md-4">
+              <div class="card shadow p-3 h-100 text-center">
+                <div class="mb-2 text-warning">
+                  <i class="b i bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star"></i>
+                </div>
+                <p class="lead">"Great instructors and lifetime access is a big plus!"</p>
+                <h6 class="fw-bold">- Aman Verma</h6>
+              </div>
+
+            </div>
+          </div>
+        </section>
+        <style>
+          .stats-section {
+            background: white;
+            padding: 50px 0;
+            text-align: center;
+          }
+
+          .stat-box {
+            margin: 20px;
+          }
+
+          .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #0d6efd;
+          }
+
+          .stat-text {
+            font-size: 1.2rem;
+            color: #333;
+          }
+        </style>
+        </head>
+
+        <body>
+          <section class="stats-section">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-md-3 stat-box">
+                  <div class="stat-number">11k+</div>
+                  <div class="stat-text">Learners</div>
+                </div>
+                <div class="col-md-3 stat-box">
+                  <div class="stat-number">2000+</div>
+                  <div class="stat-text">Ratings</div>
+                </div>
+                <div class="col-md-3 stat-box">
+                  <div class="stat-number">74+</div>
+                  <div class="stat-text">Partners</div>
+                </div>
+              </div>
+              <button class="btn btn-warning btn-lg mt-4">Subscribe</button>
+            </div>
+          </section>
+          <div class="container text-center my-5">
+            <h2 class="fw-bold">Be Placement Ready in 5 Months!</h2>
+            <p class="text-muted">A Course Suitable For Every Ambition</p>
+
+            <img src="images/placement-steps.jpg" alt="Placement Steps" class="img-fluid rounded shadow">
+          </div>
+        </body>
+
+</html>
